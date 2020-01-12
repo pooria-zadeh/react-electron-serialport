@@ -28,5 +28,5 @@ created by the awesome electron community.
 
 
 ## Problems
-If you get this [error](https://github.com/serialport/node-serialport/issues/1910) after
+If you got this [error](https://github.com/serialport/node-serialport/issues/1910) after
 **npm i** you could run **npm run rebuild**
