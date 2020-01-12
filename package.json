@@ -1,10 +1,10 @@
 {
-    "name": "electron-serialport",
-    "version": "1.0.1",
-    "description": "A minimal Electron application with node serialport",
+    "name": "electron-react-serialport",
+    "version": "1.0.0",
+    "description": "A minimal Electron and React application with node serialport",
     "main": "./src/es6_init.js",
     "build": {
-        "electronCompile":true,
+        "electronCompile": true,
         "appId": "react.electron",
         "win": {
             "icon": "build/app-icon.png"
@@ -18,17 +18,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:johnny-five-io/electron-serialport.git"
+        "url": "git@github.com:lordpooria/react-electron-serialport.git"
     },
     "keywords": [
         "Electron",
-        "quick",
-        "start",
-        "tutorial",
-        "demo"
+        "React",
+        "Serialport"
     ],
-    "author": "GitHub",
-    "license": "CC0-1.0",
+    "author": "lordpooria",
+    "license": "MIT",
     "dependencies": {
         "babel-runtime": "^6.11.6",
         "chart.js": "^2.9.3",
