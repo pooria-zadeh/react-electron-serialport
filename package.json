@@ -11,9 +11,8 @@
         }
     },
     "scripts": {
-        "compile": "cross-env NODE_ENV='production' git clean -xdf lib && babel -d lib/ src",
-        "prepublish": "npm run compile",
         "start": "cross-env NODE_ENV='development' electron .",
+        "rebuild": "./node_modules/.bin/electron-rebuild",
         "build": "electron-builder"
     },
     "repository": {
@@ -42,7 +41,6 @@
         "tableify": "^1.1.0"
     },
     "devDependencies": {
-        "electron": "^5.0.5",
         "babel": "^6.5.2",
         "babel-cli": "^6.26.0",
         "babel-plugin-transform-async-to-generator": "^6.8.0",
@@ -54,8 +52,10 @@
         "babel-preset-react": "^6.11.1",
         "babel-preset-stage-0": "^6.5.0",
         "concurrently": "^5.0.2",
+        "electron": "^5.0.5",
         "electron-builder": "^22.1.0",
         "electron-compilers": "^5.9.0",
+        "electron-rebuild": "^1.8.8",
         "eslint": "^6.7.2",
         "eslint-config-airbnb": "^18.0.1",
         "eslint-config-erb": "^0.1.1",
