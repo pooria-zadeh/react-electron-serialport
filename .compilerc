@@ -1,0 +1,13 @@
+{
+  "application/javascript": {
+    "presets": ["es2016-node5", "react"],
+    "plugins": ["transform-class-properties",
+     "transform-async-to-generator",
+      "transform-runtime",
+      "transform-object-rest-spread"],
+    "sourceMaps": "none"
+  },
+  "text/less": {
+    "dumpLineNumbers": "comments"
+  }
+}
