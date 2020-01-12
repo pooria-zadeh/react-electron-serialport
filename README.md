@@ -25,3 +25,8 @@ Learn more about Electron and its API in the [documentation](http://electron.ato
 For more example apps, see the
 [list of boilerplates](http://electron.atom.io/community/#boilerplates)
 created by the awesome electron community.
+
+
+## Problems
+If you get this [error](https://github.com/serialport/node-serialport/issues/1910) after
+**npm i** you could run **npm run rebuild**
