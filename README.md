@@ -1,4 +1,4 @@
-# electron-react-serialport
+# react-electron-serialport
 This is a simple electron react implementaion with serialport.
 
 **Clone and run for a quick way to see Electron and React together with Serialport in action.**
